@@ -7,7 +7,7 @@ Now with **Tamil language support** and **Action Tips**, you can capture thought
 
 ## 🚀 Features  
 
-- 🎙️ **Voice Recording** – Record your daily diary entries.  
+- 🎙️ **Voice Recording** – Record your daily diary entries.
 - 📝 **Speech-to-Text** – Convert your spoken words into text (supports **Tamil + English**).  
 - 🌐 **Tamil Language Support** – Speak in Tamil, and the diary will transcribe it.  
 - 💡 **Action Tips** – After saving, get motivational or reflective tips to improve your day.  
@@ -62,7 +62,7 @@ No server setup needed 🚀 – it runs directly in the browser.
 - **👩 Name**: Premavathy V  
 - **📧 Email**: [vprema376@gmail.com](mailto:vprema376@gmail.com)  
 - **💼 GitHub**: [github.com/PremavathyV](https://github.com/PremavathyV)  
-- **🔗 LinkedIn**: [https://www.linkedin.com/in/premavathy-vijayan-921a39252/](
+- **🔗 LinkedIn**: [https://www.linkedin.com/in/premavathy-vijayan-921a39252/](https://www.linkedin.com/in/premavathy-vijayan-921a39252/)
 
 ---
 
