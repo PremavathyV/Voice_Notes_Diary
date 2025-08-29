@@ -8,7 +8,7 @@ Now with **Tamil language support** and **Action Tips**, you can capture thought
 ## 🚀 Features  
 
 - 🎙️ **Voice Recording** – Record your daily diary entries.
-- 📝 **Speech-to-Text** – Convert your spoken words into text (supports **Tamil + English**). 
+- 📝 **Speech-to-Text** – Convert your spoken words into text (supports **Tamil + English**).
 - 🌐 **Tamil Language Support** – Speak in Tamil, and the diary will transcribe it.  
 - 💡 **Action Tips** – After saving, get motivational or reflective tips to improve your day. 
 - 📂 **Diary Management** – Save, search, export, and import diary entries.  
