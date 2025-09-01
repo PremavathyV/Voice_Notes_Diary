@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Notes Diary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">📖 Voice Notes Diary</h1>
+            <p class="subtitle">Capture your thoughts, preserve your memories</p>
+        </header>
+
+        <main class="main">
+            <div class="recording-section">
+                <div class="recording-controls">
+                    <button id="recordBtn" class="btn btn-record">
+                        <span class="btn-icon">🎙️</span>
+                        <span class="btn-text">Start Recording</span>
+                    </button>
+                    
+                    <div id="recordingIndicator" class="recording-indicator hidden">
+                        <div class="pulse-dot"></div>
+                        <span class="recording-text">Recording...</span>
+                        <span id="recordingTimer" class="recording-timer">00:00</span>
+                    </div>
+                </div>
+
+                <div id="audioPreview" class="audio-preview hidden">
+                    <audio id="previewAudio" controls></audio>
+                    <div class="preview-actions">
+                        <button id="saveBtn" class="btn btn-save">
+                            <span class="btn-icon">💾</span>
+                            <span class="btn-text">Save Entry</span>
+                        </button>
+                        <button id="discardBtn" class="btn btn-discard">
+                            <span class="btn-icon">❌</span>
+                            <span class="btn-text">Discard</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="transcription-section">
+                <div class="transcription-toggle">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="enableTranscription">
+                        <span class="toggle-slider"></span>
+                        Enable Speech-to-Text
+                    </label>
+                </div>
+                <div id="transcriptionResult" class="transcription-result hidden">
+                    <h3>Transcription:</h3>
+                    <div class="transcription-text"></div>
+                </div>
+            </div>
+
+            <div class="entries-section">
+                <div class="entries-header">
+                    <h2>📂 Diary Entries</h2>
+                    <div class="entries-actions">
+                        <input type="text" id="searchInput" placeholder="Search entries..." class="search-input">
+                        <button id="exportBtn" class="btn btn-secondary">
+                            <span class="btn-icon">📤</span>
+                            Export
+                        </button>
+                        <input type="file" id="importInput" accept=".json" class="hidden">
+                        <button id="importBtn" class="btn btn-secondary">
+                            <span class="btn-icon">📥</span>
+                            Import
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="entriesList" class="entries-list">
+                    <div class="no-entries">
+                        <p>No diary entries yet. Start recording to create your first entry!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Modal Title</h3>
+                <button id="closeModal" class="close-btn">&times;</button>
+            </div>
+            <div id="modalBody" class="modal-body">
+                Modal content
+            </div>
+            <div class="modal-footer">
+                <button id="modalConfirm" class="btn btn-primary">Confirm</button>
+                <button id="modalCancel" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
