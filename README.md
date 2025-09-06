@@ -1,7 +1,7 @@
 # 📓 Voice Notes Diary  
 
 Voice Notes Diary is a simple and stylish web app that allows you to record your voice, save diary entries, and even convert speech to text.  
-Now with **Tamil language support** and **Action Tips**, you can capture thoughts in your own language and get motivational prompts!  
+Now with **Tamil language support** and **Action Tips**, you can capture thoughts in your own language and get motivational prompts! 
 
 ---
 
